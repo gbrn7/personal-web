@@ -8,21 +8,25 @@ import { FaChevronDown } from "react-icons/fa6";
 import { useState } from "react";
 
 export default function Aside() {
-  const [toggleIdentity, setToggleIdentity] = useState(false);
+  const [toggleIdentityIsOpen, setToggleIdentityIsOpen] = useState(false);
   return (
     <div className="max-h-max border border-zinc-500 h-full w-full lg:w-fit p-5  bg-gray-500 rounded-xl flex flex-col lg:gap-y-9 gap-y-8 backdrop-filter backdrop-blur-lg bg-opacity-30 relative transition-all ease-in-out duration-500">
       <div
         className="btn absolute right-3 top-3 p-3 rounded-lg bg-gray-600 pr-2 lg:hidden"
-        onClick={() => setToggleIdentity(!toggleIdentity)}
+        onClick={() => setToggleIdentityIsOpen(!toggleIdentityIsOpen)}
       >
-        <FaChevronDown />
+        <FaChevronDown
+          className={`${
+            toggleIdentityIsOpen && "rotate-180"
+          } transition-all ease-in-out duration-500`}
+        />
       </div>
       <div className="header-info flex lg:flex-col lg:gap-y-7 gap-x-5 items-center">
         <div className="img-wrapper p-1 bg-gray-600 backdrop-filter backdrop-blur-lg backdrop-fil w-[150px] rounded-3xl">
           <img src={memoji} alt="emoji" className="object-cover w-full" />
         </div>
         <div className="identity-info flex flex-col lg:items-center">
-          <h3 className="font-semibold text-xs sm:text-sm lg:text-sm  md:text-xl lg:text-center">
+          <h3 className="font-semibold text-base lg:text-sm  md:text-xl lg:text-center">
             Muhammad Rayhan Gibran
           </h3>
           <p
@@ -36,7 +40,7 @@ export default function Aside() {
       <hr className="border-t-1 border-zinc-500 hidden lg:block" />
       <div
         className={`contact-wrapper transition-all lg:h-52 overflow-hidden ease-in-out duration-500 ${
-          toggleIdentity ? "h-0" : "h-52"
+          toggleIdentityIsOpen ? "h-52" : "h-0"
         } lg:block `}
       >
         <div className="main-contact transition-all ease-in-out duration-500 grid grid-cols-1 gap-4">

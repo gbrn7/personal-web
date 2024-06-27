@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "../pages/error";
 import Root from "./Root";
+import About from "../pages/About/Index";
 
 const Router = createBrowserRouter([
   {
@@ -10,7 +11,7 @@ const Router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div className="text-zinc-300"></div>,
+        element: <About />,
       },
       {
         path: "/resume",

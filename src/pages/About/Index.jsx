@@ -1,12 +1,12 @@
-import { MdEmail } from "react-icons/md";
 import TimelineItem from "../../components/TimelineItem";
 import contentBackground from "../../assets/main-content-background.png";
-import { experienceItems } from "../../constants/Index";
+import { experienceItems, technicalSkillItems } from "../../constants/Index";
+import TechnicalCard from "../../components/TechnicalCard";
 
 export default function About() {
   return (
     <div
-      className="about flex flex-col gap-y-8 py-7 w-full bg-gray-500 rounded-xl backdrop-filter p-7 backdrop-blur-lg bg-opacity-30 border border-zinc-500"
+      className="about  flex flex-col gap-y-8 py-7 overflow-hidden bg-gray-500 rounded-xl backdrop-filter p-7 backdrop-blur-lg bg-opacity-30 border border-zinc-500"
       style={{
         background: `url(${contentBackground})`,
         backgroundSize: "cover",
@@ -25,17 +25,30 @@ export default function About() {
         </div>
       </div>
       <div className="experience">
-        <h1 className="font-bold text-3xl title">Experience</h1>
-        <ol className="mt-3 flex flex-col gap-y-2">
+        <h1 className="font-bold text-3xl title">Project & Experience</h1>
+        <ol className="mt-3 flex flex-col gap-y-2 ">
           {experienceItems.map((item, index) => (
             <TimelineItem
               title={item.title}
               date={item.date}
               desc={item.desc}
-              key={item.index}
+              key={index}
             />
           ))}
         </ol>
+      </div>
+      <div className="technical-skill w-full ">
+        <h1 className="font-bold text-3xl title">Technical Skill</h1>
+        <div className="technical-wrapper mt-3 grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-4">
+          {technicalSkillItems.map((item, index) => (
+            <TechnicalCard
+              image={item.image}
+              title={item.title}
+              subtitle={item.subtitle}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

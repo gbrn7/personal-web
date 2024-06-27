@@ -8,7 +8,7 @@ export default function Aside() {
   const [toggleIdentityIsOpen, setToggleIdentityIsOpen] = useState(false);
   return (
     <div
-      className="max-h-max border border-zinc-500 h-full p-5 rounded-xl flex flex-col lg:gap-y-9 gap-y-8 backdrop-filter backdrop-blur-lg bg-opacity-30 relative transition-all ease-in-out duration-500 lg:w-3/6"
+      className="max-h-max border border-gray-500 h-full p-5 rounded-xl flex flex-col lg:gap-y-9 gap-y-8 backdrop-filter sticky backdrop-blur-lg bg-opacity-30 transition-all ease-in-out duration-500 lg:w-3/6"
       style={{
         background: `url(${asideBackground})`,
         backgroundPosition: "center",
@@ -27,22 +27,23 @@ export default function Aside() {
         />
       </div>
       <div className="header-info flex lg:flex-col lg:gap-y-7 gap-x-5 items-center">
-        <div className="img-wrapper p-1 bg-gradient-to-r from-purple-500 to-purple-900 backdrop-filter backdrop-blur-lg backdrop-fil w-[150px] rounded-3xl">
+        <div
+          className="img-wrapper p-1  
+           border-2 border-gray-500
+        backdrop-filter  backdrop-fil w-[150px] rounded-full"
+        >
           <img src={memoji} alt="emoji" className="object-cover w-full" />
         </div>
         <div className="identity-info flex flex-col lg:items-center">
           <h3 className="font-semibold text-base lg:text-sm md:text-xl lg:text-center">
             Muhammad Rayhan Gibran
           </h3>
-          <p
-            className="personal-title text-xs
-            bg-gray-600 text-center rounded-md font-light mt-3 max-w-max px-3 py-2 bg-gradient-to-r bg-purple-800"
-          >
+          <p className="personal-title text-xs text-center rounded-2xl font-light mt-3 max-w-max px-3 py-2 border-gray-500 border">
             Fullstack Web Developer
           </p>
         </div>
       </div>
-      <hr className="border-t-1 border-zinc-500 hidden lg:block" />
+      <hr className="border-t-1 border-gray-500 hidden lg:block" />
       <div
         className={`contact-wrapper transition-all lg:h-52 overflow-hidden ease-in-out duration-500 ${
           toggleIdentityIsOpen ? "h-52" : "h-0"
@@ -51,11 +52,11 @@ export default function Aside() {
         <div className="main-contact transition-all ease-in-out duration-500 grid grid-cols-1 gap-4">
           {contactItems.map((item, index) => (
             <div className="contact flex w-full gap-x-3" key={index}>
-              <div className="icon-wrapper px-3 h-10 w-10 grid bg-gradient-to-r from-purple-500 to-purple-900 place-content-center  rounded-lg ">
+              <div className="icon-wrapper px-3 h-10 w-10 grid border border-gray-500 place-content-center rounded-lg text-xl">
                 {item.icon}
               </div>
               <div className="contact email w-full flex flex-col gap-y-1 overflow-hidden">
-                <label className="text-xs font-light text-zinc-300">
+                <label className="text-xs font-light text-gray-300">
                   {item.label}
                 </label>
                 <a href={item.href} className="text-sm font-medium truncate">

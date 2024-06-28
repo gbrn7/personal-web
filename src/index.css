@@ -4,13 +4,40 @@
 @tailwind components;
 @tailwind utilities;
 
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
 
 :root {
   font-family: "Plus Jakarta Sans", sans-serif;
   color-scheme: dark;
 }
 
-.sidebar {
-
-  transition: 0.5s ease-in-out;
+.has-scrollbar::-webkit-scrollbar {
+  width: 5px; /* for vertical scrollbar */
+  height: 5px; /* for horizontal scrollbar */
 }
+
+body::-webkit-scrollbar { width: 20px; }
+
+body::-webkit-scrollbar-track { background:rgb(15 23 42); }
+
+body::-webkit-scrollbar-thumb {
+  border: 5px solid rgb(15 23 42);
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+              inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+}
+
+body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+
+body::-webkit-scrollbar-button { height: 60px; }

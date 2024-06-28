@@ -8,7 +8,7 @@ export default function Aside() {
   const [toggleIdentityIsOpen, setToggleIdentityIsOpen] = useState(false);
   return (
     <div
-      className="max-h-max border border-gray-500 h-full p-5 rounded-xl flex flex-col lg:gap-y-9 gap-y-8 backdrop-filter sticky backdrop-blur-lg bg-opacity-30 transition-all ease-in-out duration-500 lg:w-3/6"
+      className="max-h-max border border-gray-500 h-full p-5 rounded-xl flex flex-col lg:gap-y-9 backdrop-filter sticky backdrop-blur-lg bg-opacity-30 transition-all ease-in-out duration-500 lg:max-w-72 w-full"
       style={{
         background: `url(${asideBackground})`,
         backgroundPosition: "center",
@@ -46,7 +46,7 @@ export default function Aside() {
       <hr className="border-t-1 border-gray-500 hidden lg:block" />
       <div
         className={`contact-wrapper transition-all lg:h-52 overflow-hidden ease-in-out duration-500 ${
-          toggleIdentityIsOpen ? "h-52" : "h-0"
+          toggleIdentityIsOpen ? "h-52 mt-7" : "h-0"
         } lg:block `}
       >
         <div className="main-contact transition-all ease-in-out duration-500 grid grid-cols-1 gap-4">
@@ -68,7 +68,7 @@ export default function Aside() {
         </div>
         <div className="socmed-wrapper transition-all ease-in-out duration-500 mt-8 flex lg:justify-center gap-3 items-center">
           {socmedItems.map((item, index) => (
-            <a href={item.href} key={index}>
+            <a href={item.href} className="text-xl" key={index}>
               {item.icon}
             </a>
           ))}

@@ -2,7 +2,7 @@ import icon from "../assets/laravel.svg";
 
 export default function TechnicalCard({ image, title, subtitle }) {
   return (
-    <div className="technical-skill-item max-w-72 w-full flex gap-x-4 border-gray-500 border p-3 rounded-lg items-center">
+    <div className="technical-skill-item lg:max-w-72 w-full flex gap-x-4 border-gray-500 border p-3 rounded-lg items-center">
       <img
         src={image}
         alt="technical-skill-img"

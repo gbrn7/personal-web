@@ -16,7 +16,6 @@ import mongodb from "../assets/mongodb.svg";
 export const navItems = [
   { label: "About Me", href: "" },
   { label: "Portofolio", href: "portofolio" },
-  { label: "Contact", href: "contact" },
 ];
 
 export const contactItems = [

@@ -3,7 +3,7 @@ import { navItems } from "../constants/Index";
 
 export default function Navbar() {
   return (
-    <nav className="sm:absolute sm:top-0 sm:z-20 sm:right-0 left-0 sm:left-auto border border-gray-500 bg-opacity-35 py-4 px-5 sm:rounded-bl-xl ">
+    <nav className="sm:absolute sm:top-0 sm:z-20 sm:right-0 left-0 sm:left-auto border border-gray-500 bg-opacity-35 py-4 px-5 sm:rounded-bl-xl border-t-0">
       <ul className="flex gap-x-6">
         {navItems.map((item, index) => (
           <li key={index}>

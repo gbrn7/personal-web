@@ -156,7 +156,7 @@ export const portofolioCardItems = [
   {
     image: suppmycoffee,
     title: "Supp-My-Coffee",
-    subtitle: "Roastery house E-Commerce website with payment gateway",
+    subtitle: "Roastery House E-Commerce website with payment gateway",
     category: "Web FullStack",
     href: "https://suppmycoffee.gbrncode.com/",
   },

@@ -4,7 +4,7 @@ import TechnicalCard from "../../components/TechnicalCard";
 
 export default function About() {
   return (
-    <div className="about-wrapper flex flex-col gap-y-8 py-7 overflow-hidden sm:p-7 py-3 px-5">
+    <div className="about-wrapper flex flex-col gap-y-8 overflow-hidden sm:p-7 py-3 px-5">
       <div className="about">
         <h1 className="font-bold text-3xl title">About Me</h1>
 

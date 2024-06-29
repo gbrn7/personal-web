@@ -41,3 +41,15 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
 body::-webkit-scrollbar-button { height: 60px; }
+
+a.portofolioCard:hover .img-preview{
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(0, 0) rotate(0) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 0.5rem;
+}
+
+a.portofolioCard:hover .icon-wrapper
+{
+  display: block;
+}

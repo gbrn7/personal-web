@@ -2,7 +2,6 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { GrMapLocation } from "react-icons/gr";
 import { MdEmail } from "react-icons/md";
 import { SiLinkedin } from "react-icons/si";
-
 import laravel from "../assets/laravel.svg";
 import react from "../assets/react.svg";
 import postgresql from "../assets/postgresql.png";
@@ -12,6 +11,18 @@ import expressJs from "../assets/expressJS.svg";
 import tailwind from "../assets/tailwind.svg";
 import bootstrap from "../assets/bootstrap.png";
 import mongodb from "../assets/mongodb.svg";
+import suppmycoffee from "../assets/suppMyCoffee.png";
+import superMarketer from "../assets/superMarketer.png";
+import furnitureShop from "../assets/FurnitureShop.png";
+import hotelResort from "../assets/hotelResort.png";
+import plantShop from "../assets/PlantShop.png";
+import simplyInterior from "../assets/simplyInterior.png";
+import virtualR from "../assets/VirtualR.png";
+import spkTopsis from "../assets/spkTopsis.png";
+import griyaSehatQta from "../assets/GriyaSehatQta.png";
+import gentleBaby from "../assets/gentleBaby.png";
+import sinaw from "../assets/sinaw.png";
+import sirepoJTI from "../assets/sirepoJTI.png";
 
 export const navItems = [
   { label: "About Me", href: "" },
@@ -130,5 +141,93 @@ export const technicalSkillItems = [
     image: mongodb,
     title: "MongoDB",
     subtitle: "Database",
+  },
+];
+
+export const portofolioCardItems = [
+  {
+    image: sirepoJTI,
+    title: "Sirepo-JTI",
+    subtitle:
+      "Thesis Repository System for Technology Information Departement State Polytechnic of Malang",
+    category: "Web Fullstack",
+    href: "https://sirepojti.gbrncode.com/",
+  },
+  {
+    image: suppmycoffee,
+    title: "Supp-My-Coffee",
+    subtitle: "Roastery house E-Commerce website with payment gateway",
+    category: "Web FullStack",
+    href: "https://suppmycoffee.gbrncode.com/",
+  },
+  {
+    image: spkTopsis,
+    title: "Topsis Method",
+    subtitle: "Decision Support System",
+    category: "Web FullStack",
+    href: "https://topsis.gbrncode.com/",
+  },
+  {
+    image: gentleBaby,
+    title: "Gentle Baby",
+    subtitle: "B2B E-Commerce for purchasing medicines (freelance project)",
+    category: "Web FullStack",
+    href: "https://gentlebaby.konsulasi.com/sign-in",
+  },
+  {
+    image: virtualR,
+    title: "VirtualR",
+    subtitle: "VirtualR Landing Page",
+    category: "Front End",
+    href: "https://virtualr.gbrncode.com/",
+  },
+  {
+    image: griyaSehatQta,
+    title: "Griya Sehat Qta",
+    subtitle: "Online Clinic Reservation",
+    category: "Web FullStack",
+    href: "https://griyasehatqta.com/",
+  },
+  {
+    image: superMarketer,
+    title: "Super Marketer",
+    subtitle: "Digital marketting Agency Landing Page",
+    category: "Front End",
+    href: "https://supermarketer.gbrncode.com/",
+  },
+  {
+    image: sinaw,
+    title: "Sinaw",
+    subtitle: "Course Landing Page",
+    category: "Front End",
+    href: "https://onlinecourse.gbrncode.com/",
+  },
+  {
+    image: simplyInterior,
+    title: "Simply Interior",
+    subtitle: "Interior Service Landing Page",
+    category: "Front End",
+    href: "https://simplyinterior.gbrncode.com/",
+  },
+  {
+    image: hotelResort,
+    title: "Hotel Resort",
+    subtitle: "Hotel Resort Landing Page",
+    category: "Front End",
+    href: "https://hotelresort.gbrncode.com/",
+  },
+  {
+    image: furnitureShop,
+    title: "Furniture Shop",
+    subtitle: "Furniture Shop Landing Page",
+    category: "Front End",
+    href: "https://myfurniture.gbrncode.com/",
+  },
+  {
+    image: plantShop,
+    title: "Plant Shop",
+    subtitle: "Plant Shop Landing Page",
+    category: "Front End",
+    href: "https://plantshop.gbrncode.com/",
   },
 ];

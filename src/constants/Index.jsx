@@ -148,8 +148,7 @@ export const portofolioCardItems = [
   {
     image: sirepoJTI,
     title: "Sirepo-JTI",
-    subtitle:
-      "Thesis Repository System for Technology Information Departement State Polytechnic of Malang",
+    subtitle: "Thesis Repository System for Technology Information Departement",
     category: "Web Fullstack",
     href: "https://sirepojti.gbrncode.com/",
   },

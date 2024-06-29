@@ -20,7 +20,7 @@ export default function PortofolioCard({ image, title, subtitle, href }) {
       </div>
       <div className="text-wrapper mt-3 text-center lg:text-start">
         <div className="title font-semibold text-md">{title}</div>
-        <div className="subtitle font-thin text-sm ">{subtitle}</div>
+        <div className="subtitle font-thin text-sm truncate">{subtitle}</div>
       </div>
     </a>
   );

@@ -59,7 +59,11 @@ export default function Aside() {
                 <label className="text-xs font-light text-gray-300">
                   {item.label}
                 </label>
-                <a href={item.href} className="text-sm font-medium truncate">
+                <a
+                  href={item.href}
+                  target="_blank"
+                  className="text-sm font-medium truncate"
+                >
                   {item.value}
                 </a>
               </div>

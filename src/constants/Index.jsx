@@ -149,7 +149,7 @@ export const portofolioCardItems = [
     image: sirepoJTI,
     title: "Sirepo-JTI",
     subtitle: "Thesis Repository System for Technology Information Departement",
-    category: "Fullstack",
+    category: "FullStack",
     href: "https://sirepojti.gbrncode.com/",
   },
   {

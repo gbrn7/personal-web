@@ -59,14 +59,19 @@ export const socmedItems = [
   {
     icon: <SiLinkedin />,
     label: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/muhammad-rayhan-gibran-32a1b524a/",
   },
 ];
 
 export const experienceItems = [
   {
+    title: "PT. Rekaindo Global Jasa",
+    date: "July 2024 - Dec 2024",
+    desc: "Remote Internship - Collaborate with the team to brainstorm, design, and develop applications to support the production process of railway component",
+  },
+  {
     title: "Sirepo-JTI",
-    date: "Feb 2024 - Jun 2024",
+    date: "Feb 2024 - June 2024",
     desc: "Developed Sirepo-JTI the Thesis Repository System for Technology Information Departement State Polytechnic of Malang",
   },
   {
@@ -150,21 +155,21 @@ export const portofolioCardItems = [
     title: "Sirepo-JTI",
     subtitle: "Thesis Repository System for Technology Information Departement",
     category: "FullStack",
-    href: "https://sirepojti.gbrncode.com/",
+    href: "https://sirepojti.raygbrn.site/",
   },
   {
     image: suppmycoffee,
     title: "Supp-My-Coffee",
     subtitle: "Roastery House E-Commerce website with payment gateway",
     category: "FullStack",
-    href: "https://suppmycoffee.gbrncode.com/",
+    href: "https://supp-my-coffee.raygbrn.site/",
   },
   {
     image: spkTopsis,
     title: "Topsis Method",
     subtitle: "Decision Support System",
     category: "FullStack",
-    href: "https://topsis.gbrncode.com/",
+    href: "https://topsis-spk.raygbrn.site/",
   },
   {
     image: gentleBaby,
@@ -174,60 +179,46 @@ export const portofolioCardItems = [
     href: "https://gentlebaby.konsulasi.com/sign-in",
   },
   {
-    image: virtualR,
-    title: "VirtualR",
-    subtitle: "VirtualR Landing Page",
-    category: "Front-End",
-    href: "https://virtualr.gbrncode.com/",
-  },
-  {
-    image: griyaSehatQta,
-    title: "Griya Sehat Qta",
-    subtitle: "Online Clinic Reservation",
-    category: "FullStack",
-    href: "https://griyasehatqta.com/",
-  },
-  {
     image: superMarketer,
     title: "Super Marketer",
     subtitle: "Digital marketting Agency Landing Page",
     category: "Front-End",
-    href: "https://supermarketer.gbrncode.com/",
+    href: "https://raygbrn.site/supermarketer/",
   },
   {
     image: sinaw,
     title: "Sinaw",
     subtitle: "Course Landing Page",
     category: "Front-End",
-    href: "https://onlinecourse.gbrncode.com/",
+    href: "https://raygbrn.site/online-course/",
   },
   {
     image: simplyInterior,
     title: "Simply Interior",
     subtitle: "Interior Service Landing Page",
     category: "Front-End",
-    href: "https://simplyinterior.gbrncode.com/",
+    href: "https://raygbrn.site/simply-interior/",
   },
   {
     image: hotelResort,
     title: "Hotel Resort",
     subtitle: "Hotel Resort Landing Page",
     category: "Front-End",
-    href: "https://hotelresort.gbrncode.com/",
+    href: "https://raygbrn.site/hotel-resort/",
   },
   {
     image: furnitureShop,
     title: "Furniture Shop",
     subtitle: "Furniture Shop Landing Page",
     category: "Front-End",
-    href: "https://myfurniture.gbrncode.com/",
+    href: "https://raygbrn.site/furniture-shop/",
   },
   {
     image: plantShop,
     title: "Plant Shop",
     subtitle: "Plant Shop Landing Page",
     category: "Front-End",
-    href: "https://plantshop.gbrncode.com/",
+    href: "https://raygbrn.site/plant-shop/",
   },
 ];
 

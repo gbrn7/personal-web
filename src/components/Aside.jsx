@@ -39,7 +39,7 @@ export default function Aside() {
             Muhammad Rayhan Gibran
           </h3>
           <p className="personal-title text-xs text-center rounded-2xl font-light mt-3 max-w-max px-3 py-2 border-gray-500 border">
-            Fullstack Web Developer
+            Software Engineer
           </p>
         </div>
       </div>

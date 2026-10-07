@@ -57,10 +57,9 @@ import sirepoJTI from "../assets/sirepoJTI.png";
 import praktisPos from "../assets/praktis-pos.png";
 
 export const navItems = [
-  { label: "About Me", href: "https://" },
-  { label: "Portofolio", href: "https://portofolio" },
+  { label: "About Me", href: "" },
+  { label: "Portofolio", href: "portofolio" },
 ];
-
 export const contactItems = [
   {
     icon: <MdEmail />,

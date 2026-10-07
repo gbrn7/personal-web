@@ -53,6 +53,7 @@ import simplyInterior from "../assets/simplyInterior.png";
 import spkTopsis from "../assets/spkTopsis.png";
 import gentleBaby from "../assets/gentleBaby.png";
 import sinaw from "../assets/sinaw.png";
+import sirepoJTI from "../assets/sirepoJTI.png";
 import praktisPos from "../assets/praktis-pos.png";
 
 export const navItems = [

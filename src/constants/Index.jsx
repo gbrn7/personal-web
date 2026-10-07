@@ -53,30 +53,30 @@ import simplyInterior from "../assets/simplyInterior.png";
 import spkTopsis from "../assets/spkTopsis.png";
 import gentleBaby from "../assets/gentleBaby.png";
 import sinaw from "../assets/sinaw.png";
-import sirepoJTI from "../assets/sirepoJTI.png";
+import praktisPos from "../assets/praktis-pos.png";
 
 export const navItems = [
-  { label: "About Me", href: "" },
-  { label: "Portofolio", href: "portofolio" },
+  { label: "About Me", href: "https://" },
+  { label: "Portofolio", href: "https://portofolio" },
 ];
 
 export const contactItems = [
   {
     icon: <MdEmail />,
     label: "Email",
-    href: "mailto:muhammadrayhangibran@gmail.com",
+    href: "https://mailto:muhammadrayhangibran@gmail.com",
     value: "muhammadrayhangibran@gmail.com",
   },
   {
     icon: <FaWhatsapp />,
     label: "Phone",
-    href: "https://wa.me/6282132679938",
+    href: "https://https://wa.me/6282132679938",
     value: "+62-821-3267-9938",
   },
   {
     icon: <GrMapLocation />,
     label: "Location",
-    href: "#",
+    href: "https://#",
     value: "Malang, East Java, Indonesia",
   },
 ];
@@ -85,12 +85,12 @@ export const socmedItems = [
   {
     icon: <FaInstagram />,
     label: "Instagram",
-    href: "https://www.instagram.com/rayhangibran_19/",
+    href: "https://https://www.instagram.com/rayhangibran_19/",
   },
   {
     icon: <SiLinkedin />,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/muhammad-rayhan-gibran-32a1b524a/",
+    href: "https://https://www.linkedin.com/in/muhammad-rayhan-gibran-32a1b524a/",
   },
 ];
 
@@ -460,25 +460,32 @@ export const technicalSkillItems = [
 
 export const portofolioCardItems = [
   {
+    image: praktisPos,
+    title: "Praktis Pos",
+    subtitle: "Point Of Sale for retail",
+    category: "FullStack",
+    href: "https://praktispos.raygbrn.my.id",
+  },
+  {
     image: sirepoJTI,
     title: "Sirepo-JTI",
     subtitle: "Thesis Repository System for Technology Information Departement",
     category: "FullStack",
-    href: "",
+    href: "https://sirepo-jti.raygbrn.my.id",
   },
   {
     image: suppmycoffee,
     title: "Supp-My-Coffee",
     subtitle: "Roastery House E-Commerce website with payment gateway",
     category: "FullStack",
-    href: "",
+    href: "https://supp-my-coffee.raygbrn.my.id",
   },
   {
     image: spkTopsis,
     title: "Topsis Method",
     subtitle: "Decision Support System",
     category: "FullStack",
-    href: "",
+    href: "https://dss.raygbrn.my.id",
   },
   {
     image: gentleBaby,
@@ -492,42 +499,42 @@ export const portofolioCardItems = [
     title: "Super Marketer",
     subtitle: "Digital marketting Agency Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://supermarketer.raygbrn.my.id",
   },
   {
     image: sinaw,
     title: "Sinaw",
     subtitle: "Course Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://sinaw.raygbrn.my.id",
   },
   {
     image: simplyInterior,
     title: "Simply Interior",
     subtitle: "Interior Service Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://simply-interior.raygbrn.my.id",
   },
   {
     image: hotelResort,
     title: "Hotel Resort",
     subtitle: "Hotel Resort Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://hotel-resort.raygbrn.my.id",
   },
   {
     image: furnitureShop,
     title: "Furniture Shop",
     subtitle: "Furniture Shop Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://furniture.raygbrn.my.id",
   },
   {
     image: plantShop,
     title: "Plant Shop",
     subtitle: "Plant Shop Landing Page",
     category: "Front-End",
-    href: "",
+    href: "https://plantshop.raygbrn.my.id",
   },
 ];
 
